@@ -1,0 +1,28 @@
+
+li
+{
+    border:1px solid black;
+    width:230px;
+    background-color: rgb(171, 208, 250);
+    margin-left: 0px;
+}
+.up
+{
+    background-color: rgb(255, 204, 127);
+}
+.down
+{
+    background-color: rgb(211, 245, 62);
+}
+.del
+{
+    background-color: rgb(247, 116, 116);
+}
+.add
+{
+    background-color: rgb(253, 99, 184);
+}
+.wid
+{
+    width:300px;
+}
