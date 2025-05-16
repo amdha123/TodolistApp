@@ -3,7 +3,7 @@ li
 {
     border:1px solid black;
     width:230px;
-    background-color: rgb(171, 208, 250);
+    background-color: rgb(254, 254, 255);
     margin-left: 0px;
 }
 .up
@@ -18,11 +18,39 @@ li
 {
     background-color: rgb(247, 116, 116);
 }
+.del:hover{
+    background-color: rgb(202, 20, 20);
+    color:white;
+}
 .add
 {
-    background-color: rgb(253, 99, 184);
+    background-color: rgb(28, 211, 89);
 }
+.add:hover
+{
+    background-color: rgb(14, 163, 64);
+    color:white;
+}
+
 .wid
 {
     width:300px;
+}
+.border
+{
+    border:1px solid black;
+    margin-left: 300px;
+    width:300px;
+    margin-top: 50px;;
+    background-color:rgb(255, 236, 173) ;
+    background-image: linear-gradient(rgb(199, 225, 243),rgb(252, 161, 237));
+   
+}
+h1{
+    text-align: center;
+
+}
+.text
+{
+    padding-left: 100px;
 }

@@ -1,7 +1,7 @@
 {
   "name": "todolist",
   "version": "0.1.0",
-  "homepage": "https://amdha123.github.io/TodolistApp",
+  "homepage": "https://amdha123.github.io/TodolistApplication",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

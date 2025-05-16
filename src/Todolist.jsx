@@ -46,11 +46,12 @@ function Todolist()
 
     }
     return(
-        <div>
+        <div class="back">
+        <div className="border">
     <h1>To-Do-List</h1>
     <div >
     
-        <input type="text" value={newtask} placeholder="enter a task" onChange={handleinputchange}/>
+        <input type="text" value={newtask} placeholder="enter a task" onChange={handleinputchange} claas="text"/>
         <button class="add" onClick={addTask}>Add</button>
         <div className="wid">
         <ol>{tasks.map((task,index)=><li key={index}>
@@ -61,7 +62,7 @@ function Todolist()
         </li>
     )}</ol>
     </div>
-        
+    </div>
     </div>
     </div>
     )
